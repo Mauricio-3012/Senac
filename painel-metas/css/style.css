@@ -7,27 +7,23 @@ body {
     min-height: 100vh;
     background-image: linear-gradient(to right, #62aada7c 0%, #b3f278 100%);
 }
-header {
+header, footer {
     background-color: rgba(43, 122, 63, 0.6);
-    color: #ffffff;
+    color: #fff;
     padding: 15px 30px;
     backdrop-filter: blur(5px);
     text-align: center;
+}
+header {
     position: sticky;
     top: 0;
     z-index: 10;
-
 }
 footer {
-    background-color: rgba(43, 122, 63, 0.6);
-    color: #ffffff;
-    padding: 15px 30px;
-    backdrop-filter: blur(5px);
     margin-top: auto;
-    text-align: center;
     font-size: 16px;
 }
-form {
+form, ul {
     background-color: rgba(255, 255, 255, 0.5);
     margin: 20px auto;
     padding: 30px;
@@ -37,108 +33,64 @@ form {
     flex-direction: column;
     align-items: center;
 }
-form label {
-    display: block;
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    width: 100%;
-}
-select, option, input, textarea {
+select, input, textarea, option {
     width: 100%;
     padding: 5px;
     margin-bottom: 10px;
     border-radius: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: inherit;
 }
-button {
+form label {
     width: 100%;
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+button, .btn-concluir, .btn-remover {
     padding: 10px;
-    margin-top: 10px;
-    border-radius: 5px;
     border: none;
-    background-color: green;
+    border-radius: 5px;
     cursor: pointer;
-    color: white;
     font-weight: bold;
+    color: #fff;
+    width: 100%;
 }
-
-#adicionar-meta:hover {
-    background-color: rgb(13, 73, 8);
-    color: white;
+button { background-color: green; }
+button:hover { background-color: rgb(13, 73, 8); }
+.btn-concluir {
+    background-color: #4caf50;
+    width: auto;
 }
-
-ul {
-    background-color: rgba(255, 255, 255, 0.5);
-    margin: 20px auto;
-    padding: 30px;
-    max-width: 500px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    list-style: none;
+.btn-remover {
+    background-color: #f44336;
+    width: auto;
 }
-
+ul { list-style: none; }
 li {
     width: 100%;
-    margin-bottom: 10px;
-    background-color: rgba(209, 209, 209, 0.664);
+    background: rgba(209, 209, 209, 0.664);
     padding: 10px;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 .item-lista {
-    background-color: #ffffff;
+    background: #fff;
+    border: 1px solid #ddd;
     border-radius: 8px;
     padding: 10px 12px;
-    border: 1px solid #ddd;
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
-.item-lista h3 {
-    margin: 0;
-    font-size: 18px;
-}
-.item-lista p {
-    margin: 0;
-    font-size: 14px;
-}
-.btn-concluir {
-    background-color: #4caf50;
-    color: #ffffff;
-    border: none;
-    padding: 6px 10px;
-    margin-top: 6px;
-    margin-right: 5px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
-}
-.btn-remover {
-    background-color: #f44336;
-    color: #ffffff;
-    border: none;
-    padding: 6px 10px;
-    margin-top: 6px;
-    margin-right: 5px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
-}
+.item-lista h3 { margin: 0; font-size: 18px; }
+.item-lista p { margin: 0; font-size: 14px; }
 .concluida .item-lista {
-    background-color: #e0ffe0;
+    background: #e0ffe0;
     text-decoration: line-through;
 }
-.Baixa .item-lista {
-    background-color: #95e998;
-}
-.Média .item-lista {
-    background-color: #fdd393;
-}
-.Alta .item-lista{
-    background-color: #eca6a1;
-}
+.Baixa .item-lista  { background: #95e998; }
+.Média .item-lista  { background: #fdd393; }
+.Alta .item-lista   { background: #eca6a1; }
 .erro {
     width: 100%;
     padding: 10px;
@@ -148,14 +100,9 @@ li {
     margin-top: 20px;
     text-align: center;
 }
-.d-none {
-    display: none;
-}
-@media screen and (max-width: 760px) {
-    form{
-        margin: 30px;
-    }
-    ul{
-        margin: 30px;
-    }
+.d-none { display: none; }
+
+/*Mobile*/
+@media (max-width: 760px) {
+    form, ul { margin: 30px; }
 }
