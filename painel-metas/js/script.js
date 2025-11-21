@@ -1,8 +1,10 @@
+// captura elementos do formulario 
 const form = document.querySelector('#form');
 const addMeta = document.querySelector('#adicionar-meta');
 const erro = document.querySelector('#erro');
 const listaMetas = document.querySelector('#lista-metas');
 
+// função para adicionar metas
 function adicionarMeta(e) {
     e.preventDefault();
     erro.innerText = "";
@@ -13,11 +15,13 @@ function adicionarMeta(e) {
 
     const hoje = new Date().toISOString().split(`T`)[0];
 
+    // mensagem de erro
     if (!titulo || !descricao || !prioridade || !data || data < hoje) {
         erro.innerText = 'Preencha todos os campos corretamente!';
         return;
     }
 
+    // formatação data
     const dataAtual = new Date();
     const dataFormatada = new Intl.DateTimeFormat('pt-BR', {
         day: '2-digit',
@@ -25,6 +29,7 @@ function adicionarMeta(e) {
         year: 'numeric'
     }).format(dataAtual);
 
+    // cria um elemento <li> para cada meta adicionada
     const item = document.createElement('li');
     item.classList.add(prioridade);
     item.innerHTML = `
@@ -35,10 +40,12 @@ function adicionarMeta(e) {
       <p><b>Data:</b> ${dataFormatada}</p>
     </div>`;
 
+    // botao de concluir tarefa
     const concluirTarefa = document.createElement('button');
     concluirTarefa.innerText = '✔';
     concluirTarefa.classList.add('btn', 'btn-concluir');
 
+    // interação com o botao de concluir tarefa
     concluirTarefa.addEventListener('click', function () {
         const jaConcluida = item.classList.contains('concluida');
 
@@ -51,10 +58,12 @@ function adicionarMeta(e) {
         }
     });
 
+    // botao de remover meta
     const removerMeta = document.createElement('button');
     removerMeta.innerText = '✘';
     removerMeta.classList.add('btn-remover');
 
+    // interação com o botao de remover meta
     removerMeta.addEventListener('click', function () {
         item.remove();
     });
@@ -65,4 +74,5 @@ function adicionarMeta(e) {
     form.reset();
 }
 
+// interação do botao de adicionar meta
 addMeta.addEventListener('click', adicionarMeta);
