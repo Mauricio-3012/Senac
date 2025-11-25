@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Descontos</h1>
+    </header>
+
+    <main>
+        <div class="form">
+            <label for="">Digite o valor do produto</label>
+            <input id="valor" type="number" required>
+            
+            <label for="">Forma de pagamento</label>
+            <select name="" id="pagamento" required>
+                <option value="avista">A vista</option>
+                <option value="cartao">Cartao de credito</option>
+                <option value="parcelado2x">Parcelado em 2x</option>
+                <option value="parcelado3x">Parcelado em 3x</option>
+            </select>
+            <button id="calcular">Calcular valor final</button>
+            <div id="resultado"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Mauricio - 12/11/2025</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
