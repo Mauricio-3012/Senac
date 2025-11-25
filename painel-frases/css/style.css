@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, rgb(138, 214, 127) 0%, rgb(164, 202, 180) 30%, rgb(194, 236, 181) 100%);
+}
+
+header {
+    text-align: center;
+}
+
+div {
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+section{
+    background-color: #e9f1f375;
+    border-radius: 10px;
+    max-width: 100%;
+    text-align: center;
+}
+.frases{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+button {
+    padding: 15px;
+    background-color: rgb(66, 206, 85);
+    border: 1px solid;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 5px 2px 5px 2px black;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgb(36, 150, 55);
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: bold;
+}
