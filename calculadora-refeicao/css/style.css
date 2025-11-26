@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #62aada7c 0%, #7880f2 100%);
+}
+header {
+    background-color: rgba(43, 48, 122, 0.6);
+    color: #ffffff;
+    padding: 15px 30px;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+footer {
+    background-color: rgba(43, 48, 122, 0.6);
+    color: #ffffff;
+    padding: 15px 30px;
+    backdrop-filter: blur(5px);
+    margin-top: auto;
+    text-align: center;
+    font-size: 16px;
+}
+main {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#sec-formulario {
+    width: 100%;
+    max-width: 500px;
+}
+form {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 20px auto;
+    padding: 30px;
+    max-width: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+select{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #ccc;
+}
+.grupo-checkbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+.grupo-checkbox label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(0, 117, 153);
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+button:hover {
+    background-color: rgb(8, 38, 73);
+}
+.erro {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: #f44336;
+    background-color: #ffebee;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+#resultado {
+    width: 100%;
+    max-width: 500px;
+}
+.painel-resultado {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 20px auto;
+    padding: 30px;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+}
+.painel-resultado h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.total {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.d-none {
+    display: none;
+}

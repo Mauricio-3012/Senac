@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora de Refeição</title>
+</head>
+
+<body>
+    <header>
+        <h1>Monte sua Refeição</h1>
+    </header>
+
+    <main>
+        <section id="sec-formulario">
+            <form id="form">
+                <label for="">Selecione um prato</label>
+                <select id="pratos">
+                    <option value="">Selecione</option>
+                    <option value="carne">Carne Assada</option>
+                    <option value="lasanha">Lasanha</option>
+                    <option value="frango">Frango Empanado</option>
+                </select>
+
+                <label for="">Selecione uma bebida</label>
+                <select id="bebidas">
+                    <option value="">Selecione</option>
+                    <option value="guarana">Guaraná</option>
+                    <option value="fanta">Fanta</option>
+                    <option value="monster">Monster</option>
+                </select>
+
+                <h4>Adicionais</h4>
+                <div class="grupo-checkbox">
+                    <label>
+                        <input type="checkbox" name="" value="sobremesa">
+                        Sobremesa
+                    </label>
+                    <label>
+                        <input type="checkbox" name="" value="molho">
+                        Molho Extra
+                    </label>
+                    <label>
+                        <input type="checkbox" name="" value="embalagem">
+                        Embalagem Premium
+                    </label>
+                </div>
+
+                <div id="erro" class="erro d-none"></div>
+
+                <button type="button" id="calcular-total">Calcular Total</button>
+            </form>
+        </section>
+
+        <section id="resultado" class="d-none"></section>
+    </main>
+
+    <footer>
+        &copy; Maurício Alves | 25/11/2025
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
