@@ -19,8 +19,6 @@
 - Navegador Google Chrome (para testes);
 <hr>
 
-| nativo   | esquerda | centro   | direita  |
-|----------|:---------|:--------:|---------:|
 | ![example](/example.png) | ![example](/example.png) | ![example](/example.png) | ![example](/example.png) |
 
 <h2> Como rodar o projeto </h2>
