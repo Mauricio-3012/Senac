@@ -11,9 +11,16 @@
 <p></p>
 
 <h2>Teconologias utilizadas</h2>
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="60"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="60"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="60"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="60"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="60"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" height="60"/>
+</p>
 
-![html](https://img.icons8.com/?size=100&id=20909&format=png&color=000000) ![css](https://img.icons8.com/?size=100&id=21278&format=png&color=000000) ![js](https://img.icons8.com/?size=100&id=108784&format=png&color=000000) ![vscodee](https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000) ![github](https://img.icons8.com/?size=100&id=12599&format=png&color=7950F2) ![chrome](https://img.icons8.com/?size=100&id=63785&format=png&color=000000) 
-    
+
 <h2> Como rodar o projeto </h2>
 1. Baixe o repositorio
 2. 
