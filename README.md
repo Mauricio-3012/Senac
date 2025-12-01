@@ -3,7 +3,5 @@
 ---
 
 ## Funcionalidades
---
 
 ## Teconologias utilizadas
---
