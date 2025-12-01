@@ -11,8 +11,10 @@
 <p></p>
 
 <h2>Teconologias utilizadas</h2>
-:--------:
-![html](https://img.icons8.com/?size=100&id=20909&format=png&color=000000) ![css](https://img.icons8.com/?size=100&id=21278&format=png&color=000000) ![js](https://img.icons8.com/?size=100&id=108784&format=png&color=000000) ![vscodee](https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000) ![github](https://img.icons8.com/?size=100&id=12599&format=png&color=7950F2) ![chrome](https://img.icons8.com/?size=100&id=63785&format=png&color=000000) 
+| nativo   | esquerda | centro   | direita  |
+|----------|:---------|:--------:|---------:|
+| ![html](https://img.icons8.com/?size=100&id=20909&format=png&color=000000) | ![css](https://img.icons8.com/?size=100&id=21278&format=png&color=000000) |  | ![example](/example.png) |
+  ![js](https://img.icons8.com/?size=100&id=108784&format=png&color=000000) ![vscodee](https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000) ![github](https://img.icons8.com/?size=100&id=12599&format=png&color=7950F2) ![chrome](https://img.icons8.com/?size=100&id=63785&format=png&color=000000) 
 <h2> Como rodar o projeto </h2>
 1. Baixe o repositorio
 2. 
