@@ -1,7 +1,7 @@
 <h1> Senac </h1>
-<p align = 'center'>  </p>
+<p align = 'center'> Bem vindo ao meu repositorio <b>Senac</b>. </p>
 <div align="center">
-<img src="https://desblogada.files.wordpress.com/2021/05/kaka-cordovil-java-developer-2.gif" width="900px" />
+<img src="https://desblogada.files.wordpress.com/2021/05/kaka-cordovil-java-developer-2.gif" width="700px" />
 </div>
 
 <h2> Funcionalidades </h2>
