@@ -19,7 +19,7 @@
 - Navegador Google Chrome (para testes);
 <hr>
 
-![html](https://img.icons8.com/?size=100&id=20909&format=png&color=000000) | ![css](https://img.icons8.com/?size=100&id=undefined&format=png&color=)  
+![html](https://img.icons8.com/?size=100&id=20909&format=png&color=000000) ![css](https://img.icons8.com/?size=100&id=21278&format=png&color=000000)  
 ![example](https://img.icons8.com/?size=100&id=108784&format=png&color=000000)  
 ![example](https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000) 
 ![example](/example.png) 
