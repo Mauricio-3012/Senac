@@ -4,5 +4,5 @@
 
 ## ☀️ Conteudo
 - Este repositorio contem os projetos feitos durante o curso
-[Google](https://google.com)
+[Sobre](https://github.com/Mauricio-3012)
 ---
