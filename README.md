@@ -18,12 +18,10 @@
 - Git e GitHub;
 - Navegador Google Chrome (para testes);
 <hr>
-![html](https://img.icons8.com/?size=100&id=21278&format=png&color=000000)
-<img src='https://img.icons8.com/?size=100&id=20909&format=png&color=000000'>
-<img src='https://img.icons8.com/?size=100&id=108784&format=png&color=000000'>
-<img src='https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000'>
-<img src='https://img.icons8.com/?size=100&id=63785&format=png&color=000000'>
-<img src='https://img.icons8.com/?size=100&id=12599&format=png&color=000000'>
+
+| nativo   | esquerda | centro   | direita  |
+|----------|:---------|:--------:|---------:|
+| ![example](/example.png) | ![example](/example.png) | ![example](/example.png) | ![example](/example.png) |
 
 <h2> Como rodar o projeto </h2>
 1. Baixe o repositorio
