@@ -19,7 +19,7 @@
 - Navegador Google Chrome (para testes);
 <hr>
 
-| ![example](/example.png) | ![example](/example.png) | ![example](/example.png) | ![example](/example.png) |
+| ![example](https://img.icons8.com/?size=100&id=63785&format=png&color=000000) | ![example](/) | ![example](/) | ![example](/example.png) |
 
 <h2> Como rodar o projeto </h2>
 1. Baixe o repositorio
