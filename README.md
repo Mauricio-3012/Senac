@@ -4,14 +4,16 @@
 ## Funcionalidades
 
 ## Teconologias utilizadas
-- HTML
-- CSS
-- JavaScript
-- Git e Github
-- VSCode
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- VS Code
+- Git e GitHub
+- Navegador Google Chrome (para testes)
 
 
 ## Como rodar o projeto
 1. Baixe
 2. 
 3. 
+
