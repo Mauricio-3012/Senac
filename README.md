@@ -1,8 +1,8 @@
 <h1> Senac </h1>
 <p align = 'center'> Este repositorio contem os projetos feitos durante o curso </p>
 
-## Funcionalidades
-
+<h2> Funcionalidades </h2>
+<hr>
 ## Teconologias utilizadas
 - HTML5
 - CSS3
@@ -17,3 +17,4 @@
 2. 
 3. 
 
+## Melhorias futuras
