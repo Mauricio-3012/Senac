@@ -11,13 +11,6 @@
 <p></p>
 
 <h2>Teconologias utilizadas</h2>
-- HTML5;
-- CSS3;
-- JavaScript (ES6+);
-- VS Code;
-- Git e GitHub;
-- Navegador Google Chrome (para testes);
-<hr>
 
 ![html](https://img.icons8.com/?size=100&id=20909&format=png&color=000000) ![css](https://img.icons8.com/?size=100&id=21278&format=png&color=000000)  
 ![example](https://img.icons8.com/?size=100&id=108784&format=png&color=000000)  
