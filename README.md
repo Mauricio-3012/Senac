@@ -5,6 +5,7 @@
 <hr>
 
 <h2> Teconologias utilizadas </h2>
+
 - HTML5
 - CSS3
 - JavaScript (ES6+)
