@@ -1,6 +1,6 @@
 # Senac
 -
-Este repositorio contem os projetos feitos durante o curso
+ Este repositorio contem os projetos feitos durante o curso
 --
 
 ## Funcionalidades
