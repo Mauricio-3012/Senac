@@ -3,7 +3,8 @@
 
 <h2> Funcionalidades </h2>
 <hr>
-## Teconologias utilizadas
+
+<h2> Teconologias utilizadas </h2>
 - HTML5
 - CSS3
 - JavaScript (ES6+)
