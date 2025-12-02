@@ -4,7 +4,6 @@
 </div>
 
 <div align="center">
-<img src=""/>
 </div>
 
 <h2>Teconologias utilizadas</h2>
