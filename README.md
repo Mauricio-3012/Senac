@@ -4,7 +4,7 @@
 </div>
 
 <div align="center">
-<img src="https://desblogada.files.wordpress.com/2021/05/kaka-cordovil-java-developer-1.gif" width="700px"/>
+<img src="https://undraw.co/illustrations/programming" width="700px"/>
 
 <h2>Teconologias utilizadas</h2>
 <p align="center">
