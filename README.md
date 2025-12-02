@@ -4,7 +4,8 @@
 </div>
 
 <div align="center">
-<img src="https://undraw.co/illustrations/programming" width="700px"/>
+<img src=""/>
+</div>
 
 <h2>Teconologias utilizadas</h2>
 <p align="center">
