@@ -14,37 +14,45 @@
   <img src="https://www.svgrepo.com/show/452185/css-3.svg" height="60"/>
   <img src="https://www.svgrepo.com/show/452045/js.svg" height="60"/>
   <img src="https://www.svgrepo.com/show/374171/vscode.svg" height="60"/>
+  <img src="https://www.svgrepo.com/show/452210/git.svg" height="60"/>
   <img src="https://www.svgrepo.com/show/475654/github-color.svg" height="60"/>
   <img src="https://www.svgrepo.com/show/378781/chrome.svg" height="60"/>
 </p>
 </div>
 
 <div>
-  <h2>Como rodar</h2>
+  <h2 align="center">Como rodar</h2>
     <p>1. Baixe o repositório (Clique no Botão “Code” > Download ZIP)​</p>
     <p>2. Extraia a pasta​</p>
     <p>3. Abra o projeto, e depois o seu arquivo index.html no navegador​</p>
 </div>
 
 <div>
-  <h2>Como clonar</h2>
+  <h2 align="center">Como clonar</h2>
    <p>No terminal do VS Code digite:​ git clone https://github.com/Mauricio-3012/Senac.git </p>
 
-  <p> No GitHub Desktop:​
-	No menu: File(Arquivo) > Clone a repository(Clonar repositório) > Selecione a aba URL, no campo URL, cole o link do repositório: https://github.com/Mauricio-3012/Senac.git </p>
+  <p> No GitHub Desktop:​ 
+		-> no menu: File(Arquivo) > Clone a repository(Clonar repositório) > Selecione a aba URL, no campo URL, cole o link do repositório: https://github.com/Mauricio-3012/Senac.git </p>
 </div>
 
 <div>
-  <h2>Melhorias futuras</h2>
-    - Implementar novas funcionalidades com JavaScript (ES6+)
-    - Melhorar a responsividade para dispositivos móveis
-    - Organizar melhor a estrutura do código (HTML, CSS e JS)
-    - Adicionar validações de formulários
-    - Implementar modo escuro (dark mode)
-
+  <h2 align="center">Melhorias futuras</h2>
+	<ul>
+		<li>Implementar novas funcionalidades com JavaScript (ES6+)</li>
+		<li>Melhorar a responsividade para dispositivos móveis</li>
+		<li>Organizar melhor a estrutura do código (HTML, CSS e JS)</li>
+		<li>Adicionar validações de formulários</li>
+		<li>Implementar modo escuro (dark mode)</li>
+	</ul>
 </div>
 
 <div>
-  <h2>O que aprendi</h2>
-  
+  <h2 align="center">O que aprendi</h2>
+  <p></p>
+</div>
+
+<div>
+	<h2>Autor</h2>
+	<p>Maurício Alves</p>
+	Turma de Tecnologia em Informática para Internet (Vespertino) - Senac DF
 </div>
