@@ -30,8 +30,8 @@
   <h2>Como clonar</h2>
    <p>No terminal do VS Code digite:​ git clone https://github.com/Mauricio-3012/Senac.git </p>
 
-  <p> No GitHub Desktop:​
-	No menu: File(Arquivo) > Clone a repository(Clonar repositório) > Selecione a aba URL, no campo URL, cole o link do repositório: https://github.com/Mauricio-3012/Senac.git </p>
+  <p> No GitHub Desktop:​ </p>
+	No menu: File(Arquivo) > Clone a repository(Clonar repositório) > Selecione a aba URL, no campo URL, cole o link do repositório: https://github.com/Mauricio-3012/Senac.git
 </div>
 
 <div>
