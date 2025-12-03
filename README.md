@@ -12,8 +12,8 @@
   <img src="https://www.svgrepo.com/show/452228/html-5.svg" height="60"/>
   <img src="https://www.svgrepo.com/show/452185/css-3.svg" height="60"/>
   <img src="https://www.svgrepo.com/show/452045/js.svg" height="60"/>
-  <img src="https://www.svgrepo.com/show/374171/vscode.svg" height="60"/> // vscode
-  <img src="https://www.svgrepo.com/show/475654/github-color.svg" height="60"/> // github
-  <img src="https://www.svgrepo.com/show/378781/chrome.svg" height="60"/> // google
+  <img src="https://www.svgrepo.com/show/374171/vscode.svg" height="60"/>
+  <img src="https://www.svgrepo.com/show/475654/github-color.svg" height="60"/>
+  <img src="https://www.svgrepo.com/show/378781/chrome.svg" height="60"/>
 </p>
 </div>
