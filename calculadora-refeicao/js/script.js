@@ -1,3 +1,4 @@
+// captura elementos do html
 const form = document.querySelector('#form');
 const pratoSelect = document.querySelector('#pratos');
 const bebidaSelect = document.querySelector('#bebidas');
