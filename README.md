@@ -1,6 +1,6 @@
 <div align='center'>
 <h1>Senac</h1>
-<p align = 'center'>Bem vindo ao meu repositorio <b>Senac</b>. Neste rapositório estao contidos os projetos e exercicios feitos durante o curso.</p>
+<p align = 'center'>Bem vindo ao meu repositorio <b>Senac</b>. Neste rapositório estão contidos os projetos e exercícios feitos durante o curso Tecnico e Informática para Internet.</p>
 </div>
 
 <div align="center">
@@ -16,4 +16,8 @@
   <img src="https://www.svgrepo.com/show/475654/github-color.svg" height="60"/>
   <img src="https://www.svgrepo.com/show/378781/chrome.svg" height="60"/>
 </p>
+</div>
+
+<div>
+  <h2>Como rodar</h2>
 </div>
