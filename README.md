@@ -5,15 +5,14 @@
 </div>
 
 <div>
-	<h2>Funcionalidades</h2>
+	<h2>Sobre</h2>
 	<ul>
-		<li>Interfaces responsivas para diferentes tamanhos de tela;</li>
+		<li>Projetos com interfaces responsivas para diferentes tamanhos de tela;</li>
 		<li>Interação com o usuário através de botões e eventos;</li>
-		<li>Atualização dinâmica de dados na tela com JavaScript;</li>
-		<li>Validação de ações do usuário;</li>
-		<li>Implementar modo escuro (dark mode);</li>
-		<li>Compatível com os principais navegadores (Chrome).</li>
-	</ul>
+		<li>Atualizações dinâmicas de dados na tela com JavaScript;</li>
+		<li>Layout e design modernos com CSS3 e Boostrap;</li>
+		<li>Validação de ações do usuário.</li>
+	</ul> 
 </div>
 
 <div align='center'>
@@ -66,7 +65,6 @@
 		<li>Uso do VS Code como ambiente de desenvolvimento</li>
 		<li>Versionamento de código com Git e GitHub</li>
 	</ul>
-
 </div>
 
 <div align="center">
