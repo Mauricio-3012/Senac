@@ -10,10 +10,10 @@
 <h2>Teconologias utilizadas</h2>
 <p align="center">
   <img src="https://www.svgrepo.com/show/452228/html-5.svg" height="60"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="60"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="60"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="60"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="60"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" height="60"/>
+  <img src="https://www.svgrepo.com/show/452185/css-3.svg" height="60"/>
+  <img src="https://www.svgrepo.com/show/452045/js.svg" height="60"/>
+  <img src="https://www.svgrepo.com/show/374171/vscode.svg" height="60"/> // vscode
+  <img src="https://www.svgrepo.com/show/475654/github-color.svg" height="60"/> // github
+  <img src="https://www.svgrepo.com/show/378781/chrome.svg" height="60"/> // google
 </p>
 </div>
