@@ -14,6 +14,7 @@
   <img src="https://www.svgrepo.com/show/452185/css-3.svg" height="60"/>
   <img src="https://www.svgrepo.com/show/452045/js.svg" height="60"/>
   <img src="https://www.svgrepo.com/show/374171/vscode.svg" height="60"/>
+  <img src="https://www.svgrepo.com/show/452210/git.svg" height="60"/>
   <img src="https://www.svgrepo.com/show/475654/github-color.svg" height="60"/>
   <img src="https://www.svgrepo.com/show/378781/chrome.svg" height="60"/>
 </p>
@@ -30,8 +31,8 @@
   <h2>Como clonar</h2>
    <p>No terminal do VS Code digite:​ git clone https://github.com/Mauricio-3012/Senac.git </p>
 
-  <p> No GitHub Desktop:​ </p>
-	No menu: File(Arquivo) > Clone a repository(Clonar repositório) > Selecione a aba URL, no campo URL, cole o link do repositório: https://github.com/Mauricio-3012/Senac.git
+  <p> No GitHub Desktop:​ 
+		-> no menu: File(Arquivo) > Clone a repository(Clonar repositório) > Selecione a aba URL, no campo URL, cole o link do repositório: https://github.com/Mauricio-3012/Senac.git </p>
 </div>
 
 <div>
@@ -47,5 +48,5 @@
 
 <div>
   <h2>O que aprendi</h2>
-  
+  <p></p>
 </div>
