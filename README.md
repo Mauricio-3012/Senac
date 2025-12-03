@@ -36,12 +36,13 @@
 
 <div>
   <h2>Melhorias futuras</h2>
-    - Implementar novas funcionalidades com JavaScript (ES6+)
-    - Melhorar a responsividade para dispositivos móveis
-    - Organizar melhor a estrutura do código (HTML, CSS e JS)
-    - Adicionar validações de formulários
-    - Implementar modo escuro (dark mode)
-
+	<ul>
+		<li>Implementar novas funcionalidades com JavaScript (ES6+)</li>
+		<li>Melhorar a responsividade para dispositivos móveis</li>
+		<li>Organizar melhor a estrutura do código (HTML, CSS e JS)</li>
+		<li>Adicionar validações de formulários</li>
+		<li>Implementar modo escuro (dark mode)</li>
+	</ul>
 </div>
 
 <div>
