@@ -21,9 +21,9 @@
 
 <div>
   <h2>Como rodar</h2>
-    1. Baixe o repositório (Clique no Botão “Code” > Download ZIP)​
-    2. Extraia a pasta​
-    3. Abra o projeto, e depois o seu arquivo index.html no navegador​
+    <p>1. Baixe o repositório (Clique no Botão “Code” > Download ZIP)​</p>
+    <p>2. Extraia a pasta​</p>
+    <p>3. Abra o projeto, e depois o seu arquivo index.html no navegador​</p>
 </div>
 
 <div>
