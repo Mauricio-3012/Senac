@@ -66,7 +66,6 @@
 		<li>Versionamento de código com Git e GitHub</li>
 	</ul>
 </div>
-
 <div align="center">
 	<h2>Autor</h2>
 	<p>Maurício Alves</p>
