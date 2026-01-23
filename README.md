@@ -1,6 +1,6 @@
 <div align='center'>
 <h1>Senac</h1>
-<p align = 'center'>Bem vindo ao meu repositorio <b>Senac</b>. Neste repositório estão contidos os projetos e exercícios feitos durante o curso técnico.</p>
+<p align = 'center'>Bem vindo ao meu repositorio do <b>Senac</b>. Neste repositório estão contidos os projetos e exercícios feitos durante o curso.</p>
   <img src="./assets/gifs/hello-world.gif"" width="700"/>
 </div>
 
