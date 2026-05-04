@@ -7,28 +7,35 @@ const erroDiv = document.querySelector('#erro');
 const resultadoSec = document.querySelector('#resultado');
 const btnCalcular = document.querySelector('#calcular-total');
 
+
+// tabela de precos
 const precos = {
   prato: { carne: 30, lasanha: 28.5, frango: 23 },
   bebida: { guarana: 8, fanta: 9, monster: 10 },
   adicionais: { sobremesa: 15, molho: 5.5, embalagem: 10 }
 };
 
+// funcao do botao de calcular pedido
 function calcular(e) {
   e.preventDefault();
 
+  // limpa mensagens de erro
   erroDiv.textContent = '';
   erroDiv.classList.add('d-none');
 
   const prato = pratoSelect.value;
   const bebida = bebidaSelect.value;
 
+  // validacoes
   if (!prato && !bebida) return mostrarErro('Selecione o prato e a bebida');
   if (!prato) return mostrarErro('Selecione um prato');
   if (!bebida) return mostrarErro('Selecione uma bebida');
 
+  // soma inicial (prato + bebida)
   let total = precos.prato[prato] + precos.bebida[bebida];
   const adicionais = [];
 
+  // soma os adicionais marcados
   checkboxes.forEach(cb => {
     if (cb.checked) {
       adicionais.push(cb.value);
@@ -36,6 +43,7 @@ function calcular(e) {
     }
   });
 
+  // resumo do pedido
   const divResumo = document.createElement('div');
   divResumo.classList.add('painel-resultado');
   divResumo.innerHTML = `
@@ -56,11 +64,13 @@ function calcular(e) {
   document.querySelector('#novo-pedido').addEventListener('click', resetar);
 }
 
+// mostra mensagem de erro na tela (caso haja algum)
 function mostrarErro(msg) {
   erroDiv.textContent = msg;
   erroDiv.classList.remove('d-none');
 }
 
+// limpa tudo volta para o formulario inicial
 function resetar() {
   pratoSelect.value = '';
   bebidaSelect.value = '';
@@ -71,4 +81,5 @@ function resetar() {
   erroDiv.classList.add('d-none');
 }
 
+// executa a funcao calcular ao clicar no botao
 btnCalcular.addEventListener('click', calcular);

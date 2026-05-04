@@ -1,10 +1,10 @@
 <div>
-  <h1 align='center'>🍽️ Calculadora de Refeição</h1>
+  <h1 align='center'>Calculadora de Refeição</h1>
   <p>Projeto criado para calcular o valor total de uma refeição com base nos pratos, bebidas e adicionais selecionados.</p>
 </div>
 
 <div>
-<h2>⚙️ Funcionalidades</h2>
+<h2>Funcionalidades</h2>
 <ul>
   <li>Seleção de pratos</li>
   <li>Seleção de bebidas</li>
@@ -15,7 +15,7 @@
 </div>
 
 <div align='center'>
-<h2>🛠️ Tecnologias utilizadas</h2>
+<h2>Tecnologias utilizadas</h2>
 <p align="center">
   <img src="https://www.svgrepo.com/show/452228/html-5.svg" height="60"/>
   <img src="https://www.svgrepo.com/show/452185/css-3.svg" height="60"/>
@@ -31,7 +31,7 @@
 </div>
 
 <div>
-<h2>🚀 Melhorias futuras</h2>
+<h2>Melhorias futuras</h2>
 <ul>
   <li>Adicionar mais opções de refeições</li>
   <li>Implementar sistema de pedido final</li>

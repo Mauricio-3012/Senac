@@ -7,7 +7,7 @@ O usuário informa o valor do produto, e o sistema exibe o valor final já com o
 </div>
 
 <div>
-<h2>⚙️ Funcionalidades</h2>
+<h2>Funcionalidades</h2>
 <ul>
   <li>Entrada do valor do produto</li>
   <li>Seleção da forma de pagamento</li>
@@ -19,7 +19,7 @@ O usuário informa o valor do produto, e o sistema exibe o valor final já com o
 </div>
 
 <div align='center'>
-<h2>🛠️ Tecnologias utilizadas</h2>
+<h2>Tecnologias utilizadas</h2>
 <p align="center">
   <img src="https://www.svgrepo.com/show/452228/html-5.svg" height="60"/>
   <img src="https://www.svgrepo.com/show/452185/css-3.svg" height="60"/>
@@ -35,7 +35,7 @@ O usuário informa o valor do produto, e o sistema exibe o valor final já com o
 </div>
 
 <div>
-  <h2>🚀 Melhorias futuras</h2>
+  <h2>Melhorias futuras</h2>
   <ul>
     <li>Adicionar histórico de cálculos</li>
     <li>Validação dos valores digitados</li>
