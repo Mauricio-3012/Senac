@@ -1,3 +1,4 @@
+// array dicas
 const dicas = [
     "Estabeleça metas diárias — defina o que pretende aprender a cada dia para manter o foco.",
     "Organize seu ambiente de estudos — um local limpo e silencioso ajuda na concentração.",
@@ -9,14 +10,18 @@ const dicas = [
     "Intercale matérias diferentes — estudar temas variados evita a fadiga mental.",
     "Durma bem e se alimente de forma saudável — o corpo e o cérebro precisam estar descansados.",
     "Use resumos e mapas mentais — eles facilitam a visualização e a memorização dos conceitos principais."
-];
+]; 
 
+// captura elementos do html
 const novaDica = document.querySelector("#dica");
 const botao = document.querySelector("#gerarDica");
 
+
+// funcao que escolhe uma dica aleatoria da array e exibe no html
 function gerarDica() {
     const dica = Math.floor(Math.random() * dicas.length);
     novaDica.innerText = `${dicas[dica]}`;
 }
 
+// botao que executa funcao de gerar dica ao ser clicado
 botao.addEventListener("click", gerarDica);

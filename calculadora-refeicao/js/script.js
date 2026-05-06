@@ -70,7 +70,7 @@ function mostrarErro(msg) {
   erroDiv.classList.remove('d-none');
 }
 
-// limpa tudo volta para o formulario inicial
+// limpa tudo e volta para o formulario inicial
 function resetar() {
   pratoSelect.value = '';
   bebidaSelect.value = '';
