@@ -1,10 +1,12 @@
+// captura elementos do html
 const form = document.querySelector('#form');
 const addMeta = document.querySelector('#adicionar-meta');
 const erro = document.querySelector('#erro');
 const listaMetas = document.querySelector('#lista-metas');
 
-function adicionarMeta(e) {
-    e.preventDefault();
+// funcao adicionar meta
+function adicionarMeta(e) { 
+    e.preventDefault(); // previne comportamento padrao
     erro.innerText = "";
     const titulo = document.querySelector('#titulo').value.trim();
     const descricao = document.querySelector('#descricao').value.trim();
@@ -13,11 +15,13 @@ function adicionarMeta(e) {
 
     const hoje = new Date().toISOString().split(`T`)[0];
 
+    // validacao dos campos
     if (!titulo || !descricao || !prioridade || !data || data < hoje) {
         erro.innerText = 'Preencha todos os campos corretamente!';
         return;
     }
 
+    // formatacao de data
     const dataAtual = new Date();
     const dataFormatada = new Intl.DateTimeFormat('pt-BR', {
         day: '2-digit',
@@ -25,6 +29,7 @@ function adicionarMeta(e) {
         year: 'numeric'
     }).format(dataAtual);
 
+    // cria elemento da lista que contem uma tarefa
     const item = document.createElement('li');
     item.classList.add(prioridade);
     item.innerHTML = `
@@ -35,10 +40,12 @@ function adicionarMeta(e) {
       <p>Data: <b>${dataFormatada}</b></p>
     </div>`;
 
+    // cria botao de concluir tarefa
     const concluirTarefa = document.createElement('button');
     concluirTarefa.innerText = 'Concluir tarefa';
     concluirTarefa.classList.add('btn', 'btn-concluir');
 
+    // executa funcao ao clicar no botao de concluir tarefa
     concluirTarefa.addEventListener('click', function () {
         const jaConcluida = item.classList.contains('concluida');
 
@@ -51,10 +58,12 @@ function adicionarMeta(e) {
         }
     });
 
+    // cria botao de remover meta
     const removerMeta = document.createElement('button');
     removerMeta.innerText = 'Remover Meta';
     removerMeta.classList.add('btn-remover');
 
+    // adiciona funcao ao clicar no botao de remover meta
     removerMeta.addEventListener('click', function () {
         item.remove();
     });
